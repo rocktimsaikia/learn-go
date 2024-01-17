@@ -164,3 +164,13 @@ go doc fmt.Println
 ```go
 go doc -u
 ```
+
+# Review 1
+
+This is the high level review of the things learnt so far:
+
+- The Go compiler.
+- Go packages, including the `main` for executables.
+- Go functions, including the `main` function.
+- Go comment types. `Line comments` and `Block comments`.
+- Resource extraction in CLI with `go doc`.
