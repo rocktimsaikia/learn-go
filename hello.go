@@ -10,6 +10,8 @@ func main() {
 	f.Println(t.Now())
 }
 
+// This function used to demostrate how to comment stuff in Go
+// And you can know what this function does by running go doc Comment
 func Comment() {
 	// f.Println("This does not print")
 	/*

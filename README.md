@@ -143,3 +143,24 @@ This line is ignored
 This line is ignored too
 fmt.Println("This won't print")
 ```
+
+## Go Resources
+
+Go has a built-in cli program called `go doc` to extract and view documentation from go files.
+For provided information about any Package, use the command `go doc` followed by the package name like below:
+
+```go
+go doc fmt
+```
+
+If you want to know about a specific exported function from a package you can use get it like below:
+
+```go
+go doc fmt.Println
+```
+
+> By default it will only show the exported function documentation, exported functions are those that are declared with an Uppercase letter at the start of the function name. If you want to see the unexported functions too, you need to use the flag `-u` flag
+
+```go
+go doc -u
+```
