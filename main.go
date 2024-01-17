@@ -8,6 +8,18 @@ func main() {
 	f.Println("hello world")
 	f.Println(m.Sqrt(100))
 	f.Println(t.Now())
+
+	var name string
+	var age int8
+	var isEngineer bool
+
+	name = "Rocktim Saikia"
+	age = 26
+	isEngineer = true
+
+	f.Println("Name:", name)
+	f.Println("Age:", age)
+	f.Println("Is Engineer:", isEngineer)
 }
 
 // This function used to demostrate how to comment stuff in Go
