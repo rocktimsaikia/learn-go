@@ -181,3 +181,11 @@ This section only contains very few selective useful informations from the first
 
 - A package with `package main` declaration will compile into an executable file.
 - A library is a conventional Go package that won't create an executable file but contains code that can be used for our program.
+
+## Literals
+
+Literals are fixed values that can be written into code as it is. They are literally what they say they are. Few examples:
+
+1. Number literals. Ex: `10`
+2. String literals. Ex: `Awesome`
+3. Boolean literals: Ex: `true`
