@@ -107,15 +107,39 @@ import (
 )
 ```
 
-Now we can just use the alias instead of the original package name to call any function inside it lie below:
+Now we can just use the alias instead of the original package name to call any function inside it lie below. Once we assign an alias
+to a package we have to use the alias only and not the original package name.
 
 ```go
 import (
-    "fmt"
+    f "fmt"
     m "math"
 )
 
 func main(){
-    fmt.Println(m.Sqrt(100))
+    f.Println(m.Sqrt(100))
 }
+```
+
+## Comments
+
+Like most programming languages Go supports two types of comments.
+
+1. Line comments
+2. Block comments
+
+Line comments starts with `//` and rest of the line is ignored by the compiler.
+
+```go
+// This entire line and the one below is ignored by the compiler
+// fmt.Println("hello world")
+fmt.Println("This gets printed")
+```
+
+Block comments starts with `/*` and ends with `*/`
+
+```go
+This line is ignored
+This line is ignored too
+fmt.Println("This won't print")
 ```
