@@ -174,3 +174,10 @@ This is the high level review of the things learnt so far:
 - Go functions, including the `main` function.
 - Go comment types. `Line comments` and `Block comments`.
 - Resource extraction in CLI with `go doc`.
+
+# Quiz 1
+
+This section only contains very few selective useful informations from the first quiz from the module.
+
+- A package with `package main` declaration will compile into an executable file.
+- A library is a conventional Go package that won't create an executable file but contains code that can be used for our program.
