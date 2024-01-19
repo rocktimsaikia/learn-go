@@ -1,3 +1,5 @@
+> 📚 Below are some notes I've taken from a free [Codecademy Go course](https://www.codecademy.com/learn/learn-go).
+
 ## 1. Creating a executable from a go file.
 
 We can use the go compiler to compile a executable from a go file and run it like any other binary.
