@@ -123,7 +123,7 @@ func main(){
 
 ## Comments
 
-Like most programming languages Go supports two types of comments.
+Like most programming languages Go supports two types of comments. (Same as Javascript)
 
 1. Line comments
 2. Block comments
@@ -184,8 +184,21 @@ This section only contains very few selective useful informations from the first
 
 ## Literals
 
-Literals are fixed values that can be written into code as it is. They are literally what they say they are. Few examples:
+Literals(aka _unnamed_) are fixed values that can be written into code as it is. They are literally what they say they are. Few examples:
 
 1. Number literals. Ex: `10`
 2. String literals. Ex: `Awesome`
 3. Boolean literals: Ex: `true`
+
+## Constants
+
+Constants are named values that can not be changed/updated during runtime. We use the `const` keyword to create a constant just like in Javascript.
+Then we need to immediately assign value to the constant using literals. This is useful is the value should not change throughout a program and
+it also helps to convey the developer's intention of keeping a consistent value. by convention we should use either camelCase or PascalCase to
+declare a constant.
+
+```go
+const UserName = "Rocktim Saikia"
+
+fmt.Println(UserName)
+```
