@@ -204,3 +204,51 @@ const UserName = "Rocktim Saikia"
 
 fmt.Println(UserName)
 ```
+
+# Variables
+Variables in go are defined with the `var` keyword with the name and the type of data stored in the variable. Since variables can be assigned later we don't need to assign a value initially.
+
+```go
+var lenghtOfSong unit16
+var isMusicLover bool
+var songRating float32
+```
+
+## Zero values
+Even before sassiging a value to a variable, Go will assign a default value to the variable based on the type of the variable. This is called the zero value. Below are the zero values for some types:
+
+1. `0` for numeric types.
+2. `false` for boolean types.
+3. `""` for string types.
+
+## Inferring type
+We can declare a variable without without explicitly stating it's type using the short declaration operator `:=`.
+
+```go
+name := "Rocktim"
+age := 26
+isMusicLover := true
+```
+This is same as the below code:
+
+```go
+var name = "Rocktim"
+var age = 26
+var isMusicLover = true
+```
+
+## Multiple variable declaration
+ Multiple variable declaration is possible with a few different syntaxes.
+
+ Declaring multiple variables of the same type:
+ ```go
+ var firstName, lastName string
+ firstName = "Rocktim"
+ lastName = "Saikia"
+ ```
+
+ If we already know what values we want to assign to the variables, we can use the short declaration operator `:=` to declare and assign the values at the same time.
+
+ ```go
+ name, age := "Rocktim", 26
+ ```
